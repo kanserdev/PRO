@@ -1,0 +1,96 @@
+html, body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+   width: 100%;
+   height: 100vh;
+   background: rgb(0,0,0);
+   background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 50%);
+}
+header .logo {
+   text-align: center;
+}
+header .logo img {
+    width: 100px;
+ }
+
+ .txt {
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .txt .black {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+    margin: 10px;
+ }
+.white {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+.dp {
+    width: 100%;
+    text-align: center;
+}
+
+.dp img {
+    width: 50%;
+}
+.info .one {
+    font-size: 10vh;
+    color: goldenrod;
+    margin: 10px;
+}
+h2.two,
+.three {
+    text-transform: capitalize;
+
+}
+.icon {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.label {
+    width: 100%;
+    text-align: center;
+}
+
+ul li {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .info .one {
+        font-size: 9vh;
+    }
+    h2.two {
+        font-size: 22px;
+    }
+    .three,
+    address.four {
+        font-size: 14px;
+    }
+    .icon {
+        width: 100%;
+    font-size: 10px;
+    }
+    ul li {
+        font-size: unset;
+    }
+  }
